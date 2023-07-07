@@ -5,6 +5,7 @@
     height: calc(100vh - var(--navbar-height));
     transition: width .3s;
 }
+
 .collapsed {
     width: var(--sidebar-width-collapsed);
 }
