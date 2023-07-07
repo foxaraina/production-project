@@ -1,0 +1,15 @@
+.AppLink {
+    display: block;
+    color: var(--primary-color);
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
+}
+
+.primary {
+    color: #ccc;
+}
+
+.secondary {
+    color: #fff;
+}

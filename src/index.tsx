@@ -1,10 +1,14 @@
-import {render} from "react-dom"
-import App from "./App";
-import {ThemeProvider} from "./theme/ThemeProvider";
+import { render } from 'react-dom'
+import App from './app/App'
+import { ThemeProvider } from './app/providers/ThemeProvider/ui/ThemeProvider'
+import './shared/config/i18n/i18n'
+import { BrowserRouter } from 'react-router-dom'
 
 render(
-    <ThemeProvider>
-        <App/>
-    </ThemeProvider>,
+    <BrowserRouter>
+        <ThemeProvider>
+            <App/>
+        </ThemeProvider>
+    </BrowserRouter>,
     document.getElementById('root')
 )
