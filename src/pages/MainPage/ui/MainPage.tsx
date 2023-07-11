@@ -1,11 +1,15 @@
-import { type FC } from 'react'
+import { type FC } from 'react';
+import BugButton from 'shared/ui/BugButton/BugButton';
+import { useTranslation } from 'react-i18next';
 
 const MainPage: FC = () => {
-  return (
+    const [t] = useTranslation();
+    return (
         <div>
-            Main Page
+            <BugButton />
+            {t('Main Page')}
         </div>
-  )
-}
+    );
+};
 
-export default MainPage
+export default MainPage;

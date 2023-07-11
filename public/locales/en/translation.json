@@ -1,5 +1,12 @@
 {
   "Язык": "English",
   "Главная страница": "Main page",
-  "О проете": "About"
+  "О проете": "About",
+  "Произошла ошибка перезагрузите страницу": "Error! Reload page please!",
+  "Обновить страницу": "Reload page",
+  "Page not found": "Page not found",
+  "Страница не найдена": "Страница не найдена",
+  "Main Page": "Main Page",
+  "About": "About",
+  "Toggle": "Toggle"
 }
