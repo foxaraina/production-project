@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-const NotFoundPage = () => {
+export const NotFoundPage = () => {
     const [t] = useTranslation();
     return (
         <div>
@@ -9,5 +9,3 @@ const NotFoundPage = () => {
         </div>
     );
 };
-
-export default NotFoundPage;
