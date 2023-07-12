@@ -8,7 +8,7 @@ const MainPage: FC = () => {
         <div>
             <BugButton />
             {t('Main Page')}
-            <p className="test">{t('Основная страница сайта')}</p>
+            <p className="tes">{t('Основная страница сайта')}</p>
         </div>
     );
 };
