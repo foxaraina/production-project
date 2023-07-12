@@ -9,7 +9,7 @@ const PageError = () => {
         location.reload();
     };
     return (
-        <div>
+        <div className="error-page">
             <h1>{t('Произошла ошибка перезагрузите страницу')}</h1>
             <Button onClick={reload}>{t('Обновить страницу')}</Button>
         </div>
