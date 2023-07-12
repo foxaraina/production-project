@@ -1,16 +1,16 @@
 .AppLink {
-    display: block;
-    color: var(--primary-color);
+  display: block;
+  color: var(--primary-color);
 
-    &:not(:last-child) {
-        margin-right: 10px;
-    }
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .primary {
-    color: #ccc;
+  color: #ccc;
 }
 
 .secondary {
-    color: #fff;
+  color: #fff;
 }
